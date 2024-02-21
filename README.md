@@ -7,3 +7,4 @@ encontraras juego de la serpiente, el ahorcado y un cronometro de tiempo
 <h4>Cronometro</h4>
 
 ![cronometro](https://github.com/Reviekk/JavaScript_Basico/assets/112579865/0879e9f1-6129-417e-8e7e-da5d47d8b17a)
+  
