@@ -1,0 +1,56 @@
+ *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+#board, .boardInfo{
+    max-width: 500px;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+#start, .boardInfo{
+    font-size: 25px;
+   
+}
+
+#start{
+    border: 20px;
+    border-color: black ;
+    background-color: rgb(201, 80, 80);
+    color: white;
+}
+
+#gameOver{
+    display: none;
+}
+
+
+.boardInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+
+#scoreBoard{
+    display: inline-flex;
+}
+
+.square{
+    aspect-ratio: 1;
+}
+
+.emptySquare{
+    background-color: rgb(1, 94, 233);
+}
+.snakeSquare{
+    background-color: rgb(243, 224, 141);
+}
+.foodSquare{
+    background-color: rgb(201, 80, 80);
+}
+
+
